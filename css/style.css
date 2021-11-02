@@ -3,9 +3,17 @@ body
     background-color: rgb(41, 41, 41);
     color: rgb(245, 242, 248);
 }
+a
+{
+    color: rgb(245, 242, 248);
+    text-decoration: none;
+}
 
 .head
 {
+    width: 100%;
+    top: 0;
+    position: sticky;
     background-color: rgb(70, 70, 70);
     font-size: 25px;
     height: 50px;
@@ -19,10 +27,6 @@ body
     height: 5%;
     position: relative;
     right: 43%;
-}
-#wellT
-{
-    
 }
 #wtext
 {
@@ -42,7 +46,7 @@ body
 .butSearch
 {
     border-radius: none;
-    color: white;
+    color: rgb(245, 242, 248);
     padding: 5px;
     margin: 1px;
     font-size: 16px;
@@ -54,13 +58,30 @@ body
 }
 
 
+
+
+
 .end
 {
     position: absolute;
-    top: 1180px;
-    height: 50px;
+    left: -0.5%;
+    top: 2300px;
+    height: 80px;
     background-color: rgb(22, 22, 22);
-    width: 95%;
+    width: 97%;
     margin: 15px;
     padding: 10px;
+}
+
+
+#folbut
+{
+    border-radius: 0px;
+    background-color: rgb(12, 0, 20);
+    color: rgb(245, 242, 248);
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    width: 220px;
+    height: 50px;
 }

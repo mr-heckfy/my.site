@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/genRight.css">
-    <link rel="stylesheet" type="text/JavaScript" href="js/search.js">
+    <link rel="stylesheet" type="text/css" href="css/file.css">
+    <link rel="stylesheet" type="text/css" href="css/addFile.css">
+
+    <script src="js/addFile.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/settings.js"></script>
+
     <title>My Site</title>
 </head>
 <body>
@@ -16,23 +22,52 @@
                 <a id="wtext">Vi</a><a id="wtext1">Tube</a></b>
             </div>
             <div id="search">
-                <form action="http://www.google.com">
-                    <input class="in1" placeholder="Search.." id="InputSearch" name="s">
-                    <button class="butSearch">Search</button>
+                <form id="form">
+                    <input class="in1" placeholder="Enter here" id="InputSearch" name="s"/>
+                    <input class="butSearch" type="submit" value="Search" onclick="funcSearch()"/>
                 </form>
             </div>
         </div>
     </div>
     <div>
         <div class="gen" id="genLeft">
-            spisok
+            <div>
+                <div class="leftButs">
+                    <input type="submit" id="folbut" value="Create folder" onclick="funcCreateFolder()"> <br><br>
+
+                    <form>
+                        <input type="file" class="leftBut" id="myfile" value=""/>
+                        <input type="submit" id="subFile" onclick="funcAddFile()">
+                    </form>
+                </div>
+                <div>
+
+                </div>
+            </div>
         </div>
-        <div class="gen" id="genRight">
-            File manager
+        <div class="gen" id="genRight" style="overflow-y:auto;">
+            <div id="divPic" >
+                <div class="sector">
+                    <a href="">
+                        <div class="file">
+                            <img class="f" src="files/ava.png" width="100%">
+                        </div>
+                        <div class="text">
+                            <div class="name">
+                                <b id="">
+                                    asdasdasdasdasdasd
+                                </b>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
         </div>
-    </div>
-    <div class="end">
-        <p>text</p>
+
+        <div class="end">
+            <p>text</p>
+        </div>
     </div>
 </body>
 </html>
