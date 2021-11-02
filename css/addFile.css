@@ -19,3 +19,16 @@
     position: relative;
     left: 15px;
 }
+
+
+#folbut
+{
+    border-radius: 0px;
+    background-color: rgb(12, 0, 20);
+    color: rgb(245, 242, 248);
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    width: 220px;
+    height: 50px;
+}
