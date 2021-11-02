@@ -1,0 +1,21 @@
+.leftButs
+{
+
+}
+
+.leftBut
+{
+    border-radius: 0px;
+    background-color: black;
+    color: rgb(245, 242, 248);
+    padding: 8px;
+    margin: 5px;
+    font-size: 13px;
+    width: 200px;
+}
+
+#subFile
+{
+    position: relative;
+    left: 15px;
+}

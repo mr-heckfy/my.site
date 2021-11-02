@@ -1,0 +1,51 @@
+.sector
+{
+    position: relative;
+    width: 250px;
+    height: 310px;
+    text-decoration: none;
+    color: rgb(245, 242, 248);
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    float: left;
+    background-color: rgb(18, 18, 18);
+}
+.sector:hover
+{
+    background-color: rgb(8, 8, 8);
+}
+
+.file
+{
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+.f
+{
+    align-items: center;
+}
+
+.text
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+.name
+{
+    font-size: 16px;
+}
+.un
+{
+    width: 40px;
+    height: 30px;
+    font-size: 12px;
+}
