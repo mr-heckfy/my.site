@@ -3,7 +3,10 @@ var fs = require ("fs");
 
 function funcAddFile()
 {
-    alert();
+    var divAddFile = document.getElementById("divAddFile");
+    var f = divAddFile.getElementsByClassName("f");
+
+    
 }
 
 
@@ -15,4 +18,13 @@ function funcAddFile()
 function funcCreateFolder()
 {
     var name = prompt("Folder`s name? ");
+}
+
+
+
+
+
+function funcSearch()
+{
+    
 }
